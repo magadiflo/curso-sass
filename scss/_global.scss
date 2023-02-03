@@ -17,6 +17,7 @@ body {
     padding: 0;
     line-height: 1.6;
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: url('../img/fondo.png');
 }
 
 ul {
@@ -88,4 +89,12 @@ h3 {
 .btn-secundario {
     @extend .btn;
     background-color: rgb(134, 132, 132);
+}
+
+//* Uso de mixins en sass
+@mixin caja-flex($principal: center, $cruzado: center, $wrap: nowrap) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
 }
