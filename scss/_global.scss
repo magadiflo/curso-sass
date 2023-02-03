@@ -46,3 +46,23 @@ nav,
 .presentacion {
     margin-bottom: 10%;
 }
+
+//* Variables
+$font-p: 1.8rem;
+$font-h1: 3rem;
+$font-h2: 2.4rem;
+$font-h3: 2rem;
+
+p {
+    font-size: $font-p;
+    color: rgb(134, 132, 132);
+}
+
+h2 {
+    font-size: $font-h2;
+}
+
+h3 {
+    font-size: $font-h3;
+    font-weight: lighter;
+}
