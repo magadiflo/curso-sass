@@ -85,6 +85,10 @@ h3 {
   background-color: rgb(134, 132, 132);
 }
 
+.ejemplo {
+  font-size: 55px;
+}
+
 .logo {
   width: 100px;
   height: 20px;
@@ -257,6 +261,10 @@ h3 {
 
 .btn-secundario {
   background-color: rgb(134, 132, 132);
+}
+
+.ejemplo {
+  font-size: 55px;
 }
 
 @media (min-width: 1400px) {
