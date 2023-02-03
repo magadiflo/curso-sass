@@ -84,6 +84,16 @@
             ArtWEB &copy;Todos los derechos reservados 2021
         </p>
     </footer>
+    <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = () => {
+            if (window.pageYOffset > 10) {
+                menu.style.backgroundColor = '#FFF';
+            } else {
+                menu.style.backgroundColor = 'initial';
+            }
+        }
+    </script>
 </body>
 
 </html>

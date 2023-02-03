@@ -77,6 +77,11 @@ h3 {
     margin-bottom: 10px;
     font-size: 1.5rem;
     font-weight: 500;
+    transition: transform 100ms;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .btn-principal {
